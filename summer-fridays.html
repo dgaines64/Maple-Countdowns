@@ -24,54 +24,14 @@
       width: 100%;
       max-width: 500px;
     }
-    .eyebrow {
-      font-size: 11px;
-      color: #999;
-      text-transform: uppercase;
-      letter-spacing: .09em;
-      margin-bottom: 6px;
-    }
-    .event-title {
-      font-size: 20px;
-      font-weight: 500;
-      color: #1a1a1a;
-      margin-bottom: 20px;
-    }
-    .clock {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-bottom: 16px;
-    }
-    .unit {
-      background: #fff;
-      border: 1px solid #e2e0d8;
-      border-radius: 10px;
-      padding: 12px 16px;
-      min-width: 72px;
-    }
-    .number {
-      font-size: 34px;
-      font-weight: 500;
-      color: #1a1a1a;
-      line-height: 1;
-    }
-    .label {
-      font-size: 11px;
-      color: #999;
-      margin-top: 5px;
-    }
-    .sub {
-      font-size: 12px;
-      color: #bbb;
-    }
-    .done {
-      font-size: 18px;
-      font-weight: 500;
-      color: #3a7d44;
-      padding: 12px 0;
-    }
+    .eyebrow { font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: .09em; margin-bottom: 6px; }
+    .event-title { font-size: 20px; font-weight: 500; color: #1a1a1a; margin-bottom: 20px; }
+    .clock { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+    .unit { background: #fff; border: 1px solid #e2e0d8; border-radius: 10px; padding: 12px 16px; min-width: 72px; }
+    .number { font-size: 34px; font-weight: 500; color: #1a1a1a; line-height: 1; }
+    .label { font-size: 11px; color: #999; margin-top: 5px; }
+    .sub { font-size: 12px; color: #bbb; }
+    .done { font-size: 18px; font-weight: 500; color: #3a7d44; padding: 12px 0; }
   </style>
 </head>
 <body>
@@ -86,7 +46,6 @@
     </div>
     <p class="sub">June 19, 2026 · Maple Systems</p>
   </div>
-
   <script>
     var target = new Date('2026-06-19T00:00:00');
     function pad(n) { return String(n).padStart(2, '0'); }
